@@ -18,3 +18,6 @@ RED State: 5 second duration before transitioning back to green state
 The user can drive a state transition themselves by pressing `p` and `ENTER` on their keyboard to simulate a pedestrian crossing the road. This decreases the GREEN state by 5 seconds and should expedite the transition to the YELLOW state. 
 
 The program will run continuously until the user uses the keybind `Ctrl + C` to exit the program.
+
+## State Diagram
+![Traffic Light State Diagram](pics/Traffic-Light-FSM-Diagram.png)
