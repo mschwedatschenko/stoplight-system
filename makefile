@@ -1,8 +1,9 @@
 objects = main.c
 CFLAGS = -g
+TARGET = main
 
-main:
-	gcc $(CFLAGS) -o main $(objects)
+$(TARGET): $(objects)
+        gcc $(CFLAGS) -o $(TARGET) $(objects)
 
 clean:
-	rm main $(objects)
+        rm $(TARGET)
